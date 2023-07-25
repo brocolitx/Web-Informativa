@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Mantención Vicente Guerrero</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(186, 218, 255, 0.904), #5593aee7);
+        }
+        header {
+            padding: 20px;
+            background-color: #4988a3e7;
+        }
+        .cabeza img {
+            width: 100px;
+            height: 100px;
+        }
+        .cabeza h2 {
+            margin-top: 10px;
+        }
+        .historia {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .parrafo1, .parrafo2 {
+            flex: 1;
+            padding: 10px;
+        }
+        .texto, .texto2 {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            padding: 20px;
+            background-color: #447d95e7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contacto img {
+            width: 80px;
+            height: 80px;
+        }
+        h4 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pokamonsta Store</a>
+          <hr>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Opciones de Web</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Informacion
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                    <li><a class="dropdown-item" href="#">Redes Sociales</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        </nav>
+    <!--Header-->
+    <header class="container-fluid text-center">
+        <div class="cabeza">
+            <img src="Imagenes/Logo.png" alt="">
+            <h2>Tienda de Productos Japoneses <br>Pokamonsta</h2>
+        </div>
+    </header>
+
+    <!--Inicio-->
+    <section class="container-fluid">
+        <div class="historia">
+            <h3>Nuestro recorrido</h3>
+            <hr>
+            <div class="parrafo1">
+                <p class="texto">
+                    Somos una tienda especializada en snack asiáticos que tienen un enfoque hacia el anime. Encontrarás<br>
+                    ramen, mochis, snack salados y dulces, bebestibles, entre otras cositas. Últimamente estamos trayendo<br>
+                    los productos directamente de Japón, por lo tanto, encontrarás mercadería exclusiva en la tienda que no<br>
+                    verás en ninguna parte. Por otro lado, tenemos un stock de peluches de la serie Pokémon que son<br>
+                    originales y de calidad, más otras cosas relacionadas en particular a la serie de Pokémon.<br>
+                    
+                    @pokamonstastore
+                    <br>
+                </p>
+                <img src="Imagenes/trabajo.jpg" alt="">
+            </div>  
+            <div class="parrafo2">
+                <img src="Imagenes\trabajo2.jpeg" alt="">
+
+                <p class="texto2">
+                    Nos movemos entre la Región de los Ríos y a veces en <br>
+                    La Región de los Lagos, ya sea para alguna capacitación <br>
+                    o para realizar trabajos variados. También realizamos obras menores, <br>
+                    como excavación, pintura, montaje y desmontaje de canaletas, entre otras.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+        <div class="contacto">
+            <div class="logof">
+                <img src="Imagenes\Logo.png" alt="">
+                <p>Fono: +633452123</p>
+            </div>
+        </div>
+        <div>
+            <h4>Contactos:</h4>
+            <a href="https://www.instagram.com/pokamonstastore" class="instagram-button">
+                <i class="fab fa-instagram"></i>
+                Instagram
+              </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

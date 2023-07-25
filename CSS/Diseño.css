@@ -1,0 +1,82 @@
+*{
+    padding: auto;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+/*Header*/
+header {
+    background-color: rgb(17, 17, 110);
+    color: white;
+    padding: 50px;
+}
+
+.cabeza {
+    display: inline-flex;
+    align-items: center;
+}
+
+.cabeza img {
+    margin-right: 20px;
+}
+
+
+/*Inicio*/
+.historia h3{
+    text-align: center;
+    padding: 50px;
+}
+
+.parrafo1{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 450px;
+    background-color: rgb(12, 12, 146);
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+.parrafo1 img{
+    width: 250px;
+    padding-left: 10px;
+}
+
+.texto{
+    text-align: center;
+    padding: 40px;
+}
+
+.parrafo2{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 460px;
+    background-color: rgb(12, 12, 146);
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+.parrafo2 img{
+    width: 250px;
+    padding-left: 10px;
+}
+
+.texto2{
+    text-align: center;
+    padding: 40px;
+}
+
+/*Footer*/
+footer{
+    padding: 40px;
+    background-color: rgb(17, 17, 110);
+    display: flex;
+    color: white;
+}
+
+.logof p{
+    padding: 20px;
+}
